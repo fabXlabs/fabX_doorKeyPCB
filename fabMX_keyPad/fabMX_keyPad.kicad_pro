@@ -55,19 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "copper_edge_clearance|113472568|181707778|46612234-4719-43d0-973a-029f1101dcb1|b98151cf-442e-492d-a9e4-bbc9b20d1ceb",
-        "copper_edge_clearance|60271203|19464415|20e3f67b-17e9-47c9-8da8-b74abcbef0c7|3e8d392e-6af5-4949-8699-6504959d93da",
-        "copper_edge_clearance|66656429|181592370|196e9c80-7d95-4de1-82d5-1a6fcde0b47d|4aab6b16-3360-424f-9623-9d7037db1f75",
-        "hole_clearance|81250000|95399444|a355b0dd-98fc-418f-80f7-7eb6e6586f94|997ca25a-f202-4c16-906b-34136dd2fb71",
-        "hole_clearance|91551238|95399444|0c9b3fe5-bd21-4b17-9784-ad4d56325f62|5b5efd39-d6fd-4646-8879-ee61d49ba84b",
-        "hole_clearance|91551238|95399444|daab0620-a355-440c-a322-aa8e99d912de|5b5efd39-d6fd-4646-8879-ee61d49ba84b",
-        "hole_clearance|96650000|95399444|5bf0b035-2ee4-4fdd-ba36-9b8c72df378e|45a35617-5db2-4171-8cbc-b253aa15f7ca",
-        "starved_thermal|65200000|43450000|26f2d284-1bb4-435a-8ed5-dc5709f569b6|145d2595-49fd-42e1-b0e9-45d685a328f8|B.Cu",
-        "starved_thermal|65200000|43750000|26f2d284-1bb4-435a-8ed5-dc5709f569b6|6ceeb394-a6c5-4586-ae50-1262109b4ea7|B.Cu",
-        "starved_thermal|65200000|49850000|26f2d284-1bb4-435a-8ed5-dc5709f569b6|e919abc8-f7b2-45d4-bd4e-76e908f437b5|B.Cu",
-        "starved_thermal|65200000|50150000|26f2d284-1bb4-435a-8ed5-dc5709f569b6|47aa6e12-7ec8-4e57-8649-e84d5234057c|B.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -489,8 +477,18 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "fix_passive_vals": false,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
